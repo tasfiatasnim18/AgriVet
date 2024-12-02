@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agri-vet</title>
+    <link rel="icon" type="image/logo" href="image/Logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <!---------- Header Section ---------->
+    <header>       
+        <div class="logo">
+            <img src="image/Logo.png">
+            <p>Agri-Vet</p>
+        </div> 
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="doctor.html">Doctors</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="help.html">Help</a></li>
+            <button class="signUp_btn" onclick="redirectToPage()">Sign Up</button>
+            <button class="logIn_btn" onclick="redirectToPage2()">Log In</button>
+        </ul>
+        <div class="nav-btn">
+            <button class="signUp_btn" onclick="redirectToPage()">Sign Up</button>
+            <button class="logIn_btn" onclick="redirectToPage2()">Log In</button>
+        </div> 
+        <div class="menu-toggle" id="menu-toggle">
+            <!-- Hamburger Icon -->
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>  
+    </header>
+
+    <!---------- Home Section ---------->
+    <section class="home flex-centerr section">
+        <div class="home1"> 
+            <div class="div1">
+                <h1>Providing Quality <span>Healthcare</span> for a <span>Brighter</span> and <span>Healthy</span> Future</h1>
+                <p>At our hospital, we are dedicated to providing exceptional medical care to our patients and their families. Our experienced team of medical professionals, cutting-edge technology, and compassionate approach make us a leader in the healthcare industry</p>
+                <button class="appointment">Appointment</button>
+            </div>
+            <div class="image-container">
+                <div class="img-container"></div>
+                <img src="image/Home/Home-img1.png">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="home2">
+            <h1>Find A Doctor</h1>
+            <div class="home2-div">
+                <form>
+                    <input type="text" id="name" placeholder="Pet Specification">
+                    <input type="text" id="speciality" placeholder="Problem">
+                </form>
+                <button class="search">Search</button>
+            </div>  
+        </div>
+    </section>
+    <section>
+        <div class="home3">
+            <h1>Our results in numbers</h1>
+            <div class="home3-div1">
+                <div class="cs">
+                <h2>99<span>%</span></h2>
+                <p>Customer satisfaction</p>
+            </div>
+            <div class="op">
+                <h2>15<span>K</span></h2>
+                <p>Online Patients</p>
+            </div>
+            <div class="pr">
+                <h2>12<span>K</span></h2>
+                <p>Patients Recovered</p>
+            </div>
+            <div class="cg">
+                <h2>240<span>%</span></h2>
+                <p>Company growth</p>
+            </div>
+        </div>
+    </section>
+    <section class="home3rd flex-center">
+        <div class="home3-div2">
+            <div class="home3-left">
+                <h2>You have lots of reasons to choose us</h2>
+                <p>Choose our website for expert care, easy appointment scheduling, and trusted advice. Our experienced team is dedicated to your pet’s health, providing reliable resources for all their needs.</p>
+                <div class="home3-left-btn">
+                    <button class="get-btn">Get started</button>
+                    <button class="talk-btn">Talk to sales</button>
+                </div>
+            </div>
+            <div class="home3-right">
+                <img src="image/Home/Home-img2.png">
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="services">
+            <h2>Services We Provide</h2>
+            <p >Comprehensive Veterinary Services to Keep Your Pets Healthy, Happy, and Thriving</p>
+        
+            <div class="card-container">
+                <div class="card">
+                    <img src="image/Service/Dental-Care-1.png" alt="Cancer">
+                    <h3>Dental treatments</h3>
+                    <p>Ensure your pet's health with our dental treatments, preventing plaque buildup, gum disease, and promoting fresh breath.</p>
+                    <a href="#">Learn more →</a>
+                </div>
+                <div class="card">
+                    <img src="image/Service/Bone-Fracture-Treatment-Options.jpg" alt="Dental treatments">
+                    <h3>Bones treatments</h3>
+                    <p>Our expert bone treatments help pets recover from fractures, joint issues, and arthritis, ensuring mobility and reducing pain.</p>
+                    <a href="#">Learn more →</a>
+                </div>
+                <div class="card">
+                    <img src="image/Service/Diagnose.jpg" alt="Diagnosis">
+                    <h3>Diagnosis</h3>
+                    <p>Our diagnostic services use advanced technology to accurately identify health issues, enabling effective treatment and faster recovery for your pets.</p>
+                    <a href="#">Learn more →</a>
+                </div>
+                <div class="card">
+                    <img src="image/Service/Cardiology.jpg" alt="Mastitis in cattle">
+                    <h3>Cardiology</h3>
+                    <p>Our cardiology services diagnose and treat heart conditions in pets, ensuring healthier heart function and improving their quality of life.</p>
+                    <a href="#">Learn more →</a>
+                </div>
+                <div class="card">
+                    <img src="image/Service/surgery.jpg" alt="Bluetongue">
+                    <h3>Surgery</h3>
+                    <p>Our veterinary surgeons offer expert care for routine and complex procedures, prioritizing safety, comfort, and swift recovery.</p>
+                    <a href="#">Learn more →</a>
+                </div>
+                <div class="card">
+                    <img src="image/Service/eye-care.jpg" alt="Polyomaviridae">
+                    <h3>Eye care</h3>
+                    <p>Our eye care services address vision issues, infections, and injuries, helping maintain your pet’s eye health and clear vision</p>
+                    <a href="#">Learn more →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>    
+        <div class="services">
+            <h2>Meet our team members</h2>
+            <p>At Agri-Vet, our team is dedicated to providing the best care for your pets. Our expert veterinarians, content creators, tech specialists, and support staff work together to offer valuable resources and a seamless experience for pet owners. We’re here to help keep your pets healthy and happy.</p>
+            <div class="card-container2">
+                <div class="card2">
+                    <img src="image/Home/Mahbub.png">
+                    <h2>Mahbub Alam</h2>
+                    <h3>CEO</h3>
+                    <p>A passionate leader with expertise in veterinary care and agriculture, committed to offering high-quality products that support animal health and sustainable farming.</p>
+                    <div class="home5-social">
+                        <!--<img class="social" src="image/Home/Facebook.png">
+                        <img class="social" src="image/Home/Twitter.png">
+                        <img class="social" src="image/Home/Instagram.png">
+                        <img class="social" src="image/Home/LinkedIn.png">-->
+                    </div>
+                </div>
+                <div class="card2">
+                    <img src="image/Home/Borsha.png">
+                    <h2>Ravina Hafiz Borsha</h2>
+                    <h3>Chairman</h3>
+                    <p>An experienced leader focused on guiding the company’s growth and strategic direction, ensuring sustainable solutions for animal health and agriculture.</p>
+                    <div class="home5-social">
+                        <a href=""></a>
+                        <a href=""></a>
+                        <a href=""></a>
+                    <a href=""></a>
+                    </div>
+                </div>
+                <div class="card2">
+                    <img src="image/Home/Tahmid.png">
+                    <h2>Tahmid Khan</h2>
+                    <h3>Co-founder</h3>
+                    <p>A passionate innovator with expertise in veterinary care and agriculture, shaping the company’s vision to provide solutions for farmers and pet owners.</p>
+                    <div class="home5-social">
+                        <a href=""></a>
+                        <a href=""></a>
+                        <a href=""></a>
+                        <a href=""></a>
+                    </div>
+                </div>
+                <div class="card2">
+                    <img src="image/Home/Tasnim.jpg">
+                    <h2>Tasfia Tasnim</h2>
+                    <h3>Developer</h3>
+                    <p>Ensures a seamless, user-friendly experience, making it easy for users to access valuable resources and services in animal health and agriculture.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="services">
+            <h2>Testimonial</h2>
+            <p>Trusted by Farmers and Pet Owners Nationwide for Premium Quality Animal Care Solutions and Expert Support</p>
+            <div class="card-container2">
+                <div class="card3">
+                    <img src="image/Home/Home-img9.png">
+                    <h2>“An amazing service”</h2>
+                    <p>An amazing service that delivers top-quality solutions, ensuring customer satisfaction with every interaction.</p>
+                    <h3>John Carter</h3>
+                    <h4>CEO at Doctime</h4>
+                </div>
+                <div class="card3">
+                    <img src="image/Home/Home-img10.png">
+                    <h2>“One of a kind service”</h2>
+                    <p>A one of a kind service that stands out for its excellence, offering unique solutions tailored to meet every need.</p>
+                    <h3>Sophie Moore</h3>
+                    <h4>MD at Doc time Vet</h4>
+                </div>
+                <div class="card3">
+                    <img src="image/Home/Home-img11.png">
+                    <h2>“The best service”</h2>
+                    <p>Truly the best I’ve experienced—efficient,reliable and always goes and beyond to meet my needs.</p>
+                    <h3>Andy Smith</h3>
+                    <h4>CEO  at Pet Health</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="newsletter">
+            <h1>Subscribe to our newsletter</h1>
+            <div class="newsletter-form">
+                <input type="email" id="email" placeholder="Enter your email" required>
+                <button type="submit" class="submit-btn">Subscribe</button>
+            </div>
+        </div>
+    </section>
+    
+    <!---------- Footer Section ---------->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-div1">
+                <div class="footer-logo">
+                    <img src="image/Logo.png">
+                    <h5>Agri-Vet</h5>
+                </div>
+                <div class="copyright">
+                    <p>Copyright &copy; 2024 by Agri-Vet</p>
+                    <p>All Rights Reserved</p>
+                </div>  
+            </div>
+            <div class="footer-div1">
+                <h6>Product</h6>
+                <div>
+                    <a href="">Features</a>
+                    <a href="">Pricing</a>
+                    <a href="">Case studies</a>
+                    <a href="">Reviews</a>
+                    <a href="">Updates</a>
+                </div>                
+            </div>
+            <div class="footer-div1">
+                <h6>Company</h6>
+                <div>
+                    <a href="">About</a>
+                    <a href="">Contact us</a>
+                    <a href="">Careers</a>
+                    <a href="">Culture</a>
+                    <a href="">Blog</a>
+                </div>
+            </div>
+            <div class="footer-div1">
+                <h6>Support</h6>
+                <div>
+                    <a href="">Getting started</a>
+                    <a href="">Help center</a>
+                    <a href="">Server status</a>
+                    <a href="">Report a bug</a>
+                    <a href="">Chat support</a>
+                </div>
+            </div>
+            <div class="footer-div1">
+                <h6>Follow us</h6>
+                <div>
+                    <a href="">Facebook</a>
+                    <a href="">Twitter</a>
+                    <a href="">Instagram</a>
+                    <a href="">LinkedIn</a>
+                    <a href="">YouTube</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

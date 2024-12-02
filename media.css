@@ -1,0 +1,266 @@
+@media screen and (max-width: 1080px){
+    @font-face{
+        font-family: Inter;
+        src: url(fonts/Inter-VariableFont_slnt\,wght.ttf);
+    }
+    header {
+        margin: 0 auto; /* Centers the header */
+        padding-left: 24px;
+        padding-right: 24px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+        width: 85%; /* Adjust width to control size */
+        max-width: 1700px; /* Optional max width for larger screens */
+        height: 65px;
+        display: flex;
+        overflow: visible;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 16px;
+        border: 1px solid rgba(255, 255, 255, 0.06);
+        background: rgba(255, 255, 255, 0.04);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.50);
+        backdrop-filter: blur(8px);
+        margin-top: 2vh;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        gap: 30px;
+        background-color: white;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        padding: 50px 15px;
+        border-radius: 50px;
+        width: 300px;
+        height: auto;
+    }
+
+    .nav-links button{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-btn{
+        display: none;
+    }
+
+    .nav-links a {
+        font-size: 26px;
+    } 
+    
+    .nav-links.active {
+        display: flex;
+    }
+    
+    .menu-toggle {
+        display: flex;
+    }
+
+    /*--------Home Page---------*/
+    .home .home1 .div1{
+        font-size: 0.85rem;
+    }
+
+    .home3rd{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .home3rd .home3-div2{
+        display: grid;
+        width: 100%;
+        row-gap: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .home3-left{
+        min-width: 0;
+        max-width: 450px;
+        width: 100%;
+    }
+
+    .home3-right img{
+        min-width: 0;
+        width: 100%;
+    }
+
+    /*--------Doctor Page----------*/
+    .container {
+        height: fit-content;
+    }
+
+    .content {
+        max-width: 450px;
+    }
+
+    .appointment-form {
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+}
+
+@media screen and (max-width: 767px){
+    body{
+        margin: 5rem 0 0 0;
+    }
+
+    section{
+        padding: 0 2rem;
+    }
+
+    /*--------Home Page----------*/
+    .home .home1{
+        display: grid;   
+    }
+
+    .home{
+        padding:2rem;
+    }
+
+    .flex-center {
+        justify-content: center;
+    }
+
+    .home1 .image-container .img-container{
+        position: absolute;
+    }
+
+    .home1 .image-container img{
+        position: absolute;
+        
+    }
+
+    .img-container {
+        width: ;
+    }
+
+    .home1 .image-container .div1{
+        font-size: 0.8rem;
+    }
+
+    .div1{
+        margin-bottom: 4em;
+    }
+
+    .home2{
+        margin-top: 10rem;
+    }
+
+    .home2 input{
+        width: 250px;
+    }
+
+    .home3-div1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home3rd{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card{
+        font-size: 1rem;
+    }
+
+    .card img {
+        height: auto;
+    }
+
+    .card2{
+        padding: 1em 2em;
+        font-size: 1rem;
+    }
+
+    .card2 img {
+        height: auto;
+    }
+
+    .newsletter{
+        text-align: center;
+    }
+
+    .newsletter-form{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .newsletter input{
+        width: 20em;
+    }
+
+    .newsletter button{
+        width: fit-content;
+        padding: 1rem 3rem;
+        
+    }
+
+    #name, #speciality{
+        width: 250px;
+    }
+
+    /*-----------Doctors Page---------*/
+    .container{
+        padding: 2rem 2rem;
+    }
+
+    .buttons{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .appointment-form form{
+        text-align: left;
+    }
+
+    /*-----------Service Page---------*/
+    .services{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 2rem;
+    }
+
+    .services h2{
+        margin-top: 0;
+    }
+
+    /*-----------Contact Page---------*/
+    .contact-section h2 {
+        padding-top: 0;
+    }
+    .form-row1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*-----------Help Page---------*/
+    .help{
+        padding: 0rem;
+    }
+
+    /*--------Footer Section---------*/
+    footer .footer-container {
+        flex-direction: column;
+        padding: 3rem 3rem;
+    }
+}
+
+@media (max-width: 480px) {
+     /*--------Footer Section---------*/
+     footer .footer-container {
+        flex-direction: column;
+        padding: 3rem 3rem;
+    }
+}

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agri-vet</title>
+    <link rel="icon" type="image/logo" href="image/Logo.png">
+    <link rel="stylesheet" href="sstyle.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+     <!---------- Header Section ---------->
+     <header>       
+        <div class="logo">
+            <img src="image/Logo.png">
+            <p>Agri-Vet</p>
+        </div> 
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="doctor.html">Doctors</a></li>
+            <li><a href="service.html" class="active">Service</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="help.html">Help</a></li>
+            <button class="signUp_btn" onclick="redirectToPage()">Sign Up</button>
+            <button class="logIn_btn" onclick="redirectToPage2()">Log In</button>
+        </ul>
+        <div class="nav-btn">
+            <button class="signUp_btn" onclick="redirectToPage()">Sign Up</button>
+            <button class="logIn_btn" onclick="redirectToPage2()">Log In</button>
+        </div> 
+        <div class="menu-toggle" id="menu-toggle">
+            <!-- Hamburger Icon -->
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>  
+    </header>
+
+    <!---------- Service Section ---------->
+
+    <section class="services">
+        <h2>Services We Provide</h2>
+        <p>Comprehensive Veterinary Services to Keep Your Pets Healthy, Happy, and Thriving</p>
+        
+        <div class="card-container">
+            <div class="card">
+                <img src="image/Service/Dental-Care-1.png" alt="Cancer">
+                <h3>Dental treatments</h3>
+                <p>Ensure your pet's health with our dental treatments, preventing plaque buildup, gum disease, and promoting fresh breath.</p>
+                <a href="#">Learn more →</a>
+            </div>
+            <div class="card">
+                <img src="image/Service/Bone-Fracture-Treatment-Options.jpg" alt="Dental treatments">
+                <h3>Bones treatments</h3>
+                <p>Our expert bone treatments help pets recover from fractures, joint issues, and arthritis, ensuring mobility and reducing pain.</p>
+                <a href="#">Learn more →</a>
+            </div>
+            <div class="card">
+                <img src="image/Service/Diagnose.jpg" alt="Diagnosis">
+                <h3>Diagnosis</h3>
+                <p>Our diagnostic services use advanced technology to accurately identify health issues, enabling effective treatment and faster recovery for your pets.</p>
+                <a href="#">Learn more →</a>
+            </div>
+            <div class="card">
+                <img src="image/Service/Cardiology.jpg" alt="Mastitis in cattle">
+                <h3>Cardiology</h3>
+                <p>Our cardiology services diagnose and treat heart conditions in pets, ensuring healthier heart function and improving their quality of life.</p>
+                <a href="#">Learn more →</a>
+            </div>
+            <div class="card">
+                <img src="image/Service/surgery.jpg" alt="Bluetongue">
+                <h3>Surgery</h3>
+                <p>Our veterinary surgeons offer expert care for routine and complex procedures, prioritizing safety, comfort, and swift recovery.</p>
+                <a href="#">Learn more →</a>
+            </div>
+            <div class="card">
+                <img src="image/Service/eye-care.jpg" alt="Polyomaviridae">
+                <h3>Eye care</h3>
+                <p>Our eye care services address vision issues, infections, and injuries, helping maintain your pet’s eye health and clear vision</p>
+                <a href="#">Learn more →</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+        <h2>What our customers say</h2>
+        <p>Customer reviews provide valuable insights into our services, highlighting areas of excellence and growth. We appreciate your feedback as it helps us maintain high standards and improve client satisfaction.</p>
+        
+        <div class="card-container">
+            <div class="card">
+                <div class="rating">
+                    <span class="star filled">★</span>
+                    <span class="star filled">★</span>
+                    <span class="star filled">★</span>
+                    <span class="star filled">★</span>
+                    <span class="star filled">★</span>
+                </div>
+                <h3>Sumaya Akhter</h3>
+                <p>Exceptional care! The veterinarians were knowledgeable, compassionate, and truly attentive to my pet's needs. I felt confident in their hands, and my pet is happier and healthier. Highly recommend!</p>
+                
+            </div>
+            <div class="card">
+                <div class="rating">
+                    <span class="star filled">★</span>
+                    <span class="star filled">★</span>
+                    <span class="star filled">★</span>
+                    <span class="star filled">★</span>
+                    <span class="star">★</span>
+                </div>
+                <h3>Rajib Khondokar</h3>
+                <p>I recently used Diagnose Pet for my pet's health check-up, and overall, I'm quite satisfied with the service. The app is user-friendly and makes it easy to schedule appointments and keep track of my pet’s medical records.</p>
+                
+            </div>
+            <div class="card">
+                <div class="rating">
+                    <span class="star filled">★</span>
+                    <span class="star filled">★</span>
+                    <span class="star filled">★</span>
+                    <span class="star filled">★</span>
+                    <span class="star filled">★</span>
+                </div>
+                <h3>Mahima Jannat</h3>
+                <p>Animal Dental Care provides excellent services for pets’ dental health. The staff is knowledgeable, and the treatment options are effective. The only downside was the wait time, but the care was worth it. Highly recommend for pet owners!</p>               
+            </div>
+            <div class="card">
+                <div class="rating">
+                    <span class="star filled">★</span>
+                    <span class="star filled">★</span>
+                    <span class="star filled">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                </div>
+                <h3>Sharmin Akhter</h3>
+                <p>The surgery was performed competently, and the staff was caring. However, the recovery process was longer than expected, and communication could have been better. While the outcome was positive, I feel there’s room for improvement in overall service.</p>
+            </div>
+            <div class="card">
+                <div class="rating">
+                    <span class="star filled">★</span>
+                    <span class="star filled">★</span>
+                    <span class="star filled">★</span>
+                    <span class="star filled">★</span>
+                    <span class="star">★</span>
+                </div>
+                <h3>Jannatul Ferdaus</h3>
+                <p>My cat's eye treatment was effective, and the staff was professional and caring. My pet’s condition improved significantly. The only reason for 4 stars instead of 5 is the slightly longer wait time for the consultation. Overall, highly recommended!</p>
+            </div>
+            <div class="card">
+                <div class="rating">
+                    <span class="star filled">★</span>
+                    <span class="star filled">★</span>
+                    <span class="star filled">★</span>
+                    <span class="star filled">★</span>
+                    <span class="star">★</span>
+                </div>
+                <h3>Junayed Sayed</h3>
+                <p>The treatment for my dog’s bone fracture was excellent. The vets were caring, and the recovery process went smoothly. The only issue was the wait time for the initial consultation, but the care and results made it worth it. Highly recommend!</p>
+            </div>
+        </div>
+        <button type="submit" class="review-btn">More Reviews →</button>
+    </section>
+
+    <section class="services">
+        <h2>FAQ</h2>
+        <p>Common Pet Health Problems and Expert Solutions: Your Questions Answered</p>
+        
+        <div class="card-container">
+            <div class="card">               
+                <h3>Q:What should I do if my dog has an upset stomach?</h3>
+                <p>A: If your dog has an upset stomach, withhold food for 12-24 hours, then reintroduce bland food. If symptoms persist, consult your vet.</p>
+            </div>
+            <div class="card">
+                <h3>Q: Why is my cat constantly scratching?</h3>
+                <p>A: Excessive scratching in cats can be due to fleas, allergies, or dry skin. Check for fleas and consider a vet visit for proper treatment.</p>
+            </div>
+            <div class="card">
+                <h3>Q: How can I treat my rabbit’s dental problems?</h3>
+                <p>A: Rabbits need constant access to hay to keep their teeth trimmed. If your rabbit has dental issues, visit a vet for proper care and advice.</p>
+            </div>
+            <div class="card">
+                <h3>Q: Why is my bird pulling out its feathers?</h3>
+                <p>A: Feather plucking in birds can be caused by stress, boredom, or health issues. Provide environmental enrichment and consult a vet for a full check-up.</p>
+            </div>
+            <div class="card">
+                <h3>Q: What should I do if my dog is limping?</h3>
+                <p>A: Limping can be due to injury or arthritis. Limit activity and consult a vet to determine the cause and best treatment.</p>
+            </div>
+            <div class="card">
+                <h3>Q: How can I help my cat with urinary issues?</h3>
+                <p>A: Cats with urinary problems may need a special diet or medication. If your cat is urinating outside the litter box or showing discomfort, see a vet right away.</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="newsletter">
+            <h1>Subscribe to our newsletter</h1>
+            <div class="newsletter-form">
+                <input type="email" id="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </div>
+        </div>
+    </section>
+
+    <!---------- Footer Section ---------->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-div1">
+                <div class="footer-logo">
+                    <img src="image/Logo.png">
+                    <h5>Agri-Vet</h5>
+                </div>
+                <div class="copyright">
+                    <p>Copyright &copy; 2024 by Agri-Vet</p>
+                    <p>All Rights Reserved</p>
+                </div>  
+            </div>
+        
+            <div class="footer-div1">
+                <h6>Product</h6>
+                <div>
+                    <a href="">Features</a>
+                    <a href="">Pricing</a>
+                    <a href="">Case studies</a>
+                    <a href="">Reviews</a>
+                    <a href="">Updates</a>
+                </div>                
+            </div>
+            <div class="footer-div1">
+                <h6>Company</h6>
+                <div>
+                    <a href="">About</a>
+                    <a href="">Contact us</a>
+                    <a href="">Careers</a>
+                    <a href="">Culture</a>
+                    <a href="">Blog</a>
+                </div>
+            </div>
+            <div class="footer-div1">
+                <h6>Support</h6>
+                <div>
+                    <a href="">Getting started</a>
+                    <a href="">Help center</a>
+                    <a href="">Server status</a>
+                    <a href="">Report a bug</a>
+                    <a href="">Chat support</a>
+                </div>
+            </div>
+            <div class="footer-div1">
+                <h6>Follow us</h6>
+                <div>
+                    <a href="">Facebook</a>
+                    <a href="">Twitter</a>
+                    <a href="">Instagram</a>
+                    <a href="">LinkedIn</a>
+                    <a href="">YouTube</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
